@@ -388,6 +388,7 @@ h2{
     }
     #skrollr-body{
         width:100%;
+        overflow:hidden;
     }
     .fixed-imgspace{
         display: none;
@@ -411,6 +412,7 @@ h2{
     }
     #skrollr-body{
         width:100%;
+        overflow:hidden;
     }
     .fixed-imgspace{
         display: none;
