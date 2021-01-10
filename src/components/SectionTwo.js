@@ -56,30 +56,6 @@ const SectionTwo = () => {
                         </ol>
                     </section>
                 </div>
-                
-            {/*
-                <div class="container">
-                        <div class="card" class="shadow">
-                            <div class="front face" id="card3">
-                                    front
-                            </div>
-                            <div class="back face center">
-                                    back
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="container">
-                        <div class="card" class="shadow">
-                            <div class="front face" id="card4">
-                                        front
-                            </div>
-                            <div class="back face center">
-                                        back
-                            </div>
-                        </div>
-                </div> 
-            */}
 
         </section>
     )

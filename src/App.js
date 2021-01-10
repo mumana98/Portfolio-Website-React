@@ -18,7 +18,6 @@ function App() {
           <link href="./css/styles.css" rel="stylesheet"/>
       </head>
 
-      {/* <Cover /> */}
       <SmallNav />
       <SectionBody />
     </div>

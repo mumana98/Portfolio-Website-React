@@ -2,12 +2,6 @@ import React from 'react'
 
 const SmallNav = () => {
     return(
-/*         <ul>
-            <li data-screen="#screen1" class="active"></li>
-            <li data-screen="#screen2"></li>
-            <li data-screen="#screen3"></li>
-            <li data-screen="#screen4"></li>
-        </ul> */
         <div class="fixed-imgspace"
         data-bottom-top="opacity: 0; pointer-events: none"
         data-top-top="opacity: 1; pointer-events: auto"    
