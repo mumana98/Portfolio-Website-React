@@ -11,7 +11,7 @@ const SectionBody = () => {
     },[])
 
     return(
-        <div id="section_body">
+        <div id="skrollr-body">
             <SectionOne />
             <SectionTwo />
             <SectionThree />

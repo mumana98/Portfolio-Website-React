@@ -242,7 +242,7 @@ h2{
     position: absolute;
 }
         
-#section_body{
+#skrollr-body{
     width:85%;
     height:100%;
     margin: 0 auto;
@@ -386,7 +386,7 @@ h2{
     .grid-container{
         grid-template-columns: auto auto;
     }
-    #section_body{
+    #skrollr-body{
         width:100%;
     }
     .fixed-imgspace{
@@ -409,7 +409,7 @@ h2{
     body{ 
         font-size:12px;
     }
-    #section_body{
+    #skrollr-body{
         width:100%;
     }
     .fixed-imgspace{
