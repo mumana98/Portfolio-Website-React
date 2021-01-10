@@ -7,11 +7,7 @@ import SectionFour from './SectionFour'
 
 const SectionBody = () => {
     useEffect(() => {
-        let s = skrollr.init({          
-            mobileCheck: function() {
-                return false;
-            }
-        })
+        let s = skrollr.init()
     },[])
 
     return(
