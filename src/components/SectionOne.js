@@ -8,13 +8,13 @@ import facebookImg from '../css/icons8-facebook-100.png'
 const SectionOne = () => {
 
     let w = window.innerWidth
+    let h = window.innerHeight
 
     return(
 
         <section id="screen1" class="shadow" 
-        data-bottom-top={w < 1100 ? "background-size: 300%" : "background-size: 75%"} 
-        data-top-bottom={w < 1100 ? "background-size: 400%" : "background-size: 150%"}
-
+        data-bottom-top={w > 1100 ? "background-size: 75%" : "background-size: 300%"}
+        data-top-bottom={w > 1100 ? "background-size: 150%" : "background-size: 400%"}
         >
             <nav id="tabs">
                 <a href="#screen2" class="tab">PROJECTS</a> 

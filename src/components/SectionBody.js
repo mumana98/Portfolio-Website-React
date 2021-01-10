@@ -10,7 +10,8 @@ const SectionBody = () => {
         let s = skrollr.init({          
             mobileCheck: function() {
                 return false;
-            }
+            },
+            forceHeight: false
         })
     },[])
 
