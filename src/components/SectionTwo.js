@@ -3,10 +3,13 @@ import React from 'react'
 import arrow from '../css/arrow.png'
 
 const SectionTwo = () => {
+
+    let w = window.innerWidth
+
     return(
         <section id="screen2" class="shadow"
-            data-bottom-top="background-size: 100%"
-            data-top-bottom="background-size: 150%"
+        data-bottom-top={w < 1100 ? "background-size: 300%" : "background-size: 75%"} 
+        data-top-bottom={w < 1100 ? "background-size: 400%" : "background-size: 150%"}
             >
                 <h2>PROJECTS</h2>
                 <div class="grid-container"
