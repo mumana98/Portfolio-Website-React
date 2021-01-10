@@ -35,29 +35,6 @@ body, html{
     color:#fff;
 
 }
-/*
-#small-nav{
-    position: fixed;
-    right:0px;
-    top: 50%;
-    height: 200px;
-    margin-top: -100px;
-    z-index: 10;
-}
-
-#small-nav li{
-    list-style-type: none;
-    width: 10px;
-    height: 10px;
-    border: 1px solid #5DE6FF;
-    margin: 30px;
-    border-radius: 50%;
-}
-
-#small-nav li:hover, .active{
-    background-color: #5DE6FF;
-}
-*/
 
 .small-nav{
     position: fixed;
@@ -391,6 +368,9 @@ h2{
         width:100%;
         overflow:hidden;
     }
+    #section{
+        background-position: center;
+    }
     .fixed-imgspace{
         display: none;
     }
@@ -399,14 +379,7 @@ h2{
     }
 
 }
-/*
-@media screen and (max-width:950px){
-    #screen1{
-        background-image:url(Austin.png);
-        background-size: 300%;
-    }
-}
-*/
+
 @media screen and (min-width:400px) and (max-width:1250px){
     body{ 
         font-size:12px;
@@ -414,6 +387,9 @@ h2{
     #skrollr-body{
         width:100%;
         overflow:hidden;
+    }
+    #section{
+        background-position: center;
     }
     .fixed-imgspace{
         display: none;
@@ -426,7 +402,6 @@ h2{
     }
 }
 
-/*-----------------------------------------------------------------------------------------------------------*/
 * {
     box-sizing: border-box;
     scrollbar-color: transparent transparent;
