@@ -441,7 +441,6 @@ h2{
     border-radius: 50%;
 }
   
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -450,10 +449,3 @@ h2{
     transform: rotate(360deg);
   }
 }
-
-/* //animates the namespace upwards and the links and letters together
-function introAnimation(){
-    $('#namespace').animate({marginTop:'-150px'}, 1000);
-    $('#namespace > a').delay(100).animate({letterSpacing:'.25em'}, 1000);
-    $('#imgspace a img').animate({margin:'2em'}, 1000);
-} */
