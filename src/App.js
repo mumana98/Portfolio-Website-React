@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './css/styles.css'
+import Cover from './components/Cover'
+import SmallNav from './components/SmallNav'
+import SectionBody from './components/SectionBody'
+import SectionOne from './components/SectionOne'
+import SectionTwo from './components/SectionTwo'
+import SectionThree from './components/SectionThree'
+import SectionFour from './components/SectionFour'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <head>
+          <title>Matthew Umana</title>
+          <meta name="viewport" content="width=device-width"/>
+          <link href="./css/styles.css" rel="stylesheet"/>
+      </head>
+
+      {/* <Cover /> */}
+      <SmallNav />
+      <SectionBody />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
