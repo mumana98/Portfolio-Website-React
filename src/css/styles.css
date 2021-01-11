@@ -377,6 +377,9 @@ h2{
         background-position: center center;
         background-size: 50%;
     }
+    #screen1{
+        background-attachment: scroll;
+    }
     .fixed-imgspace{
         display: none;
     }
@@ -397,6 +400,9 @@ h2{
     #section{
         background-position: center center;
         background-size: 50%;
+    }
+    #screen1{
+        background-attachment: scroll;
     }
     .fixed-imgspace{
         display: none;
