@@ -13,7 +13,8 @@ const SectionOne = () => {
     return(
 
         <section id="screen1" class="shadow" 
-
+        data-bottom-top={w > 1100 ? "background-size: 75%" : "background-position-x: 100px"}
+        data-top-bottom={w > 1100 ? "background-size: 150%" : "background-position-x: -100px"}
         >
             <nav id="tabs">
                 <a href="#screen2" class="tab">PROJECTS</a> 
