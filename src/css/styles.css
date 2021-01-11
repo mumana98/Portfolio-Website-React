@@ -378,16 +378,16 @@ h2{
         background-size: 50%;
     }
     #screen1{
-        background-size: 100%; 
+        background-attachment: scroll;
     }
     #screen2{
-        background-size: 100%; 
+        background-attachment: scroll;
     }
     #screen3{
-        background-size: 100%; 
+        background-attachment: scroll;
     }
     #screen4{
-        background-size: 100%; 
+        background-attachment: scroll; 
     }
     .fixed-imgspace{
         display: none;
@@ -412,16 +412,16 @@ h2{
         background-size: 100%;
     }
     #screen1{
-        background-size: 100%; 
+        background-attachment: scroll; 
     }
     #screen2{
-        background-size: 100%; 
+        background-attachment: scroll;
     }
     #screen3{
-        background-size: 100%; 
+        background-attachment: scroll;
     }
     #screen4{
-        background-size: 100%; 
+        background-attachment: scroll;
     }
     .fixed-imgspace{
         display: none;
