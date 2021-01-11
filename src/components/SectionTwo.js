@@ -9,8 +9,8 @@ const SectionTwo = () => {
 
     return(
         <section id="screen2" class="shadow"
-        data-bottom-top={w > 1100 ? "background-size: 75%" : "background-size: 300%"}
-        data-top-bottom={w > 1100 ? "background-size: 150%" : "background-size: 400%"}
+        data-bottom-top={w > 1100 ? "background-size: 75%" : "background-position-x: -200px"}
+        data-top-bottom={w > 1100 ? "background-size: 150%" : "background-position-x: 0px"}
             >
                 <h2>PROJECTS</h2>
                 <div class="grid-container"

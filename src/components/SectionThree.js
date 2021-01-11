@@ -9,8 +9,8 @@ const SectionThree = () => {
 
     return(
         <section id="screen3" class="shadow"
-        data-bottom-top={w > 1100 ? "background-size: 75%" : "background-size: 300%"}
-        data-top-bottom={w > 1100 ? "background-size: 150%" : "background-size: 400%"}
+        data-bottom-top={w > 1100 ? "background-size: 75%" : "background-position-x: 0px"}
+        data-top-bottom={w > 1100 ? "background-size: 150%" : "background-position-x: -300px"}
         >
             <h2>RESUME</h2>
             <embed id="resume" src={resume}
