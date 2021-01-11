@@ -375,8 +375,23 @@ h2{
     }
     #section{
         background-position: center center;
-        background-attachment: scroll;
         background-size: 50%;
+    }
+    #screen1{
+        background-position: center center;
+        background-size: 50%; 
+    }
+    #screen2{
+        background-position: center center;
+        background-size: 50%; 
+    }
+    #screen3{
+        background-position: center center;
+        background-size: 50%; 
+    }
+    #screen4{
+        background-position: center center;
+        background-size: 50%; 
     }
     .fixed-imgspace{
         display: none;
@@ -397,8 +412,24 @@ h2{
     }
     #section{
         background-position: center center;
-        background-attachment: scroll;
+
         background-size: 50%;
+    }
+    #screen1{
+        background-position: center center;
+        background-size: 50%; 
+    }
+    #screen2{
+        background-position: center center;
+        background-size: 50%; 
+    }
+    #screen3{
+        background-position: center center;
+        background-size: 50%; 
+    }
+    #screen4{
+        background-position: center center;
+        background-size: 50%; 
     }
     .fixed-imgspace{
         display: none;
