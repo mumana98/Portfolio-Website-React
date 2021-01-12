@@ -4,6 +4,7 @@ import { Spring, Parallax, ParallaxLayer } from 'react-spring/renderprops'
 import githubImg from '../css/icons8-github-100.png'
 import linkedinImg from '../css/icons8-linkedin-circled-100.png'
 import facebookImg from '../css/icons8-facebook-100.png'
+import SmallNav from './SmallNav'
 
 const SectionOne = () => {
 
@@ -13,7 +14,7 @@ const SectionOne = () => {
     return(
 
         <section id="screen1" class="shadow" 
-        data-bottom-top={w > 1100 ? "background-size: 75%" : "background-position-x: 50px"}
+        data-bottom-top={w > 1100 ? "background-size: 100%" : "background-position-x: 50px"}
         data-top-bottom={w > 1100 ? "background-size: 150%" : "background-position-x: -100px"}
         >
             <nav id="tabs">
@@ -61,6 +62,7 @@ const SectionOne = () => {
                     <li><a href="https://www.linkedin.com/in/matthew-umana"><img src={linkedinImg}/></a></li>
                     <li><a href="https://www.facebook.com/"><img src={facebookImg} /></a></li>
                 </ul>
+                <SmallNav />
             </div>
         </section> 
     )

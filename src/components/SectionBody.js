@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import skrollr from 'skrollr'
 import SectionOne from './SectionOne'
 import SectionTwo from './SectionTwo'

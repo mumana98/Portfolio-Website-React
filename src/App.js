@@ -1,7 +1,6 @@
 import React from 'react'
 import './css/styles.css'
 import Cover from './components/Cover'
-import SmallNav from './components/SmallNav'
 import SectionBody from './components/SectionBody'
 import SectionOne from './components/SectionOne'
 import SectionTwo from './components/SectionTwo'
@@ -18,7 +17,6 @@ function App() {
           <link href="./css/styles.css" rel="stylesheet"/>
       </head>
 
-      <SmallNav />
       <SectionBody />
     </div>
   )

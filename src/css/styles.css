@@ -66,6 +66,7 @@ section{
 section, section *{
     box-sizing:border-box;
 }
+
 #screen1{
     background-image:url(Austin.png);
     border: 2px solid #5DE6FF;
@@ -299,13 +300,13 @@ h2{
 }
 
 #project_2 {
-    grid-column-start: 3;
-    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
 #project_3 {
     grid-column-start: 2;
-    grid-row-start: 3;
+    grid-row-start: 2;
 }
 
 #card1 {
@@ -327,8 +328,8 @@ h2{
 #resume{
     background-color: #fff;
     width: 50%;
-    height: 550px;
-    margin: 15px 25%;
+    height: 90%;
+    margin: 0px 25%;
     border-radius: 10px;
     border: 2px solid #5DE6FF;
     box-shadow: 8px 0 15px -4px #000, -8px 0 15px -4px #000;
@@ -395,6 +396,20 @@ h2{
     .small-nav{
         display: none;
     }
+    .carousel__prev, .carousel__next{
+        display: none;
+    }
+    .carousel__slide{
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 10% 80% 10%;
+        flex-wrap: wrap;
+    }
+    #resume {
+        width: 100%;
+        height: 80%;
+        margin: 0 0;
+    }
 
 }
 
@@ -431,6 +446,20 @@ h2{
     }
     #photo img {
         top: 20%;
+    }
+    .carousel__prev, .carousel__next {
+        display: none;
+    }
+    .carousel__slide {
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 10% 80% 10%;
+        flex-wrap: wrap;
+    }
+    #resume {
+        width: 100%;
+        height: 80%;
+        margin: 0 0;
     }
 }
 
@@ -475,8 +504,8 @@ h2{
   
 .carousel__slide {
     display: grid;
-    grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: 20% 40% 40% 20%;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 20% 40% 40%;
     justify-items: center;
     position: relative;
     flex: 0 0 auto;

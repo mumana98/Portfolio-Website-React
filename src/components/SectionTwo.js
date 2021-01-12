@@ -9,7 +9,7 @@ const SectionTwo = () => {
 
     return(
         <section id="screen2" class="shadow"
-        data-bottom-top={w > 1100 ? "background-size: 75%" : "background-position-x: -200px"}
+        data-bottom-top={w > 1100 ? "background-size: 100%" : "background-position-x: -200px"}
         data-top-bottom={w > 1100 ? "background-size: 150%" : "background-position-x: 0px"}
             >
                 <h2>PROJECTS</h2>
@@ -40,6 +40,10 @@ const SectionTwo = () => {
                                         </div>
                                     </div>
                                 </div>
+                                <a href="#carousel__slide2" class="carousel__prev"><img id="left_arrow" src={arrow} alt=""/></a>
+                                <a href="#carousel__slide2" class="carousel__next"><img id="right_arrow" src={arrow} alt=""/></a>
+                            </li>
+                            <li id="carousel__slide2" class="carousel__slide">
                                 <div class="container" id="project_3">
                                     <div class="card" class="shadow">
                                         <div class="front face" id="card3"></div>
@@ -50,17 +54,12 @@ const SectionTwo = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#carousel__slide2" class="carousel__prev"><img id="left_arrow" src={arrow} alt=""/></a>
-                                <a href="#carousel__slide2" class="carousel__next"><img id="right_arrow" src={arrow} alt=""/></a>
-                            </li>
-                            <li id="carousel__slide2" class="carousel__slide">
                                 <a href="#carousel__slide1" class="carousel__prev"><img id="left_arrow" src={arrow} alt=""/></a>
                                 <a href="#carousel__slide1" class="carousel__next"><img id="right_arrow" src={arrow} alt=""/></a>
                             </li>
                         </ol>
                     </section>
                 </div>
-
         </section>
     )
 }

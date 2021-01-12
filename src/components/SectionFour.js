@@ -9,7 +9,7 @@ const SectionFour = () => {
 
     return(
         <section id="screen4" class="shadow"
-        data-bottom-top={w > 1100 ? "background-size: 75%" : "background-position-x: -500px"}
+        data-bottom-top={w > 1100 ? "background-size: 100%" : "background-position-x: -500px"}
         data-top-bottom={w > 1100 ? "background-size: 150%" : "background-position-x: -300px"}
             >
             <h2>ABOUT</h2>
