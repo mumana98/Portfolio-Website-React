@@ -1,6 +1,6 @@
 # Personal Website
 
-![Project Image]()
+![Project Image](./src/css/Website_img.png)
 #### Find it here: mumana98.github.io/Portfolio-Website-React/
 ---
 
