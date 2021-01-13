@@ -5,6 +5,7 @@ import githubImg from '../css/icons8-github-100.png'
 import linkedinImg from '../css/icons8-linkedin-circled-100.png'
 import facebookImg from '../css/icons8-facebook-100.png'
 import SmallNav from './SmallNav'
+import Links from './Links'
 
 const SectionOne = () => {
 
@@ -46,11 +47,7 @@ const SectionOne = () => {
                     data-top-bottom="transform:translateY(-300px)"
                     >
                         <a style={props}>MATTHEW UMANA</a>
-                        <div id="imgspace" style={props}>
-                            <a href="https://github.com/mumana98"><img src={githubImg} /></a>
-                            <a href="https://www.linkedin.com/in/matthew-umana"><img src={linkedinImg}/></a>
-                            <a href="https://www.facebook.com/"><img src={facebookImg} /></a>
-                        </div>
+                        <Links style={props}/>
                     </div>
                 }
             </Spring>

@@ -369,19 +369,22 @@ h2{
     }
     #section{
         background-position: center center;
-        background-size: 50%;
     }
     #screen1{
         background-attachment: scroll;
+        background-size: 300%;
     }
     #screen2{
         background-attachment: scroll;
+        background-size: 300%;
     }
     #screen3{
         background-attachment: scroll;
+        background-size: 300%;
     }
     #screen4{
         background-attachment: scroll; 
+        background-size: 300%;
     }
     .fixed-imgspace{
         display: none;
@@ -424,19 +427,23 @@ h2{
     #section{
         background-position: center center;
 
-        background-size: 100%;
+        background-size: 300%;
     }
     #screen1{
         background-attachment: scroll; 
+        background-size: 300%;
     }
     #screen2{
         background-attachment: scroll;
+        background-size: 300%;
     }
     #screen3{
         background-attachment: scroll;
+        background-size: 300%;
     }
     #screen4{
         background-attachment: scroll;
+        background-size: 300%;
     }
     .fixed-imgspace{
         display: none;

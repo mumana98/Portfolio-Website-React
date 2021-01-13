@@ -7,10 +7,11 @@ import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
 import { withStyles } from '@material-ui/core/styles'
+import Links from './Links'
 
 const useStyles = makeStyles({
     list: {
-        width: 250,
+        width: 150,
         backgroundColor: '#313131',
         border: '2px solid #5DE6FF',
         height: '100vh',
@@ -52,7 +53,7 @@ const SwipeableTemporaryDrawer = () => {
         onKeyDown={toggleDrawer(anchor, false)}
     >
         <List>
-        {['Projects', 'Resume', 'About'].map((text, index) => (
+        {['PROJECTS', 'RESUME', 'ABOUT'].map((text, index) => (
             <ListItem button key={text}>
                 <a href={"#screen" + (2+index)} className={classes.links}>
                     <ListItemText primary={text} />
@@ -60,6 +61,7 @@ const SwipeableTemporaryDrawer = () => {
             </ListItem>
         ))}
         </List>
+        <Links />
     </div>
     )
   
