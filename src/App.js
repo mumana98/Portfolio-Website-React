@@ -1,11 +1,6 @@
 import React from 'react'
 import './css/styles.css'
-import Cover from './components/Cover'
 import SectionBody from './components/SectionBody'
-import SectionOne from './components/SectionOne'
-import SectionTwo from './components/SectionTwo'
-import SectionThree from './components/SectionThree'
-import SectionFour from './components/SectionFour'
 
 function App() {
   return (

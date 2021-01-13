@@ -1,5 +1,4 @@
 import React from 'react'
-
 import resume from '../css/Resume_V2.pdf'
 
 const SectionThree = () => {

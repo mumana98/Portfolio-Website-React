@@ -1,5 +1,4 @@
 import React from 'react'
-
 import selfPortrait from '../css/selfPortrait.png'
 
 const SectionFour = () => {

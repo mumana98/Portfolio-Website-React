@@ -21,6 +21,7 @@ const SectionOne = () => {
                 <a href="#screen2" class="tab">PROJECTS</a> 
                 <a href="#screen3" class="tab">RESUME</a>
                 <a href="#screen4" class="tab">ABOUT</a>
+                <SmallNav />
             </nav>
             <Spring
                 from={{
@@ -62,7 +63,6 @@ const SectionOne = () => {
                     <li><a href="https://www.linkedin.com/in/matthew-umana"><img src={linkedinImg}/></a></li>
                     <li><a href="https://www.facebook.com/"><img src={facebookImg} /></a></li>
                 </ul>
-                <SmallNav />
             </div>
         </section> 
     )
