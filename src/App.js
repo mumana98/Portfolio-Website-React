@@ -2,7 +2,7 @@ import React from 'react'
 import './css/styles.css'
 import SectionBody from './components/SectionBody'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
 
@@ -11,7 +11,6 @@ function App() {
           <meta name="viewport" content="width=device-width"/>
           <link href="./css/styles.css" rel="stylesheet"/>
       </head>
-
       <SectionBody />
     </div>
   )

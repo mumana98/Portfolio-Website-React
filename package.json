@@ -10,7 +10,9 @@
     "@testing-library/user-event": "^7.1.2",
     "backpax": "^1.0.3",
     "react": "^16.13.1",
+    "react-awesome-reveal": "^3.5.2",
     "react-dom": "^16.13.1",
+    "react-headroom": "^3.1.0",
     "react-scripts": "3.4.3",
     "react-spring": "^8.0.27",
     "skrollr": "^0.6.26"

@@ -4,12 +4,11 @@ import arrow from '../css/arrow.png'
 const SectionTwo = () => {
 
     let w = window.innerWidth
-    let h = window.innerHeight
 
     return(
         <section id="screen2" class="shadow"
-        data-bottom-top={w > 1100 ? "background-size: 100%" : "background-position-x: -200px"}
-        data-top-bottom={w > 1100 ? "background-size: 150%" : "background-position-x: 0px"}
+        data-bottom-top={w > 1000 ? "background-size: 100%" : "background-size: 350%; background-position-x: -100px"}
+        data-top-bottom={w > 1000 ? "background-size: 150%" : "background-size: 450%"}
             >
                 <h2>PROJECTS</h2>
                 <div class="grid-container"
@@ -20,7 +19,7 @@ const SectionTwo = () => {
                         <ol class="carousel__viewport">
                             <li id="carousel__slide1" class="carousel__slide">
                                 <div class="container" id="project_1">
-                                    <div class="card" class="shadow">
+                                    <div class="card shadow">
                                         <div class="front face" id="card1"></div>
                                         <div class="back face center">
                                             Todo List - 
@@ -30,7 +29,7 @@ const SectionTwo = () => {
                                     </div>
                                 </div>
                                 <div class="container" id="project_2">
-                                    <div class="card" class="shadow">
+                                    <div class="card shadow">
                                         <div class="front face" id="card2"></div>
                                         <div class="back face center">
                                             Zombie Level Design - 
@@ -44,7 +43,7 @@ const SectionTwo = () => {
                             </li>
                             <li id="carousel__slide2" class="carousel__slide">
                                 <div class="container" id="project_3">
-                                    <div class="card" class="shadow">
+                                    <div class="card shadow">
                                         <div class="front face" id="card3"></div>
                                         <div class="back face center">
                                             Zombie Level Design - 

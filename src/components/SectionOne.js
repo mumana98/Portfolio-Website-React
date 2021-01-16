@@ -1,29 +1,21 @@
-import React, { useState, useEffect } from 'react'
-import { Spring, Parallax, ParallaxLayer } from 'react-spring/renderprops'
-
+import React, {useState, useEffect} from 'react'
+import { Spring } from 'react-spring/renderprops'
 import githubImg from '../css/icons8-github-100.png'
 import linkedinImg from '../css/icons8-linkedin-circled-100.png'
 import facebookImg from '../css/icons8-facebook-100.png'
-import SmallNav from './SmallNav'
 import Links from './Links'
+import Nav from './Nav'
 
 const SectionOne = () => {
 
     let w = window.innerWidth
-    let h = window.innerHeight
 
     return(
-
         <section id="screen1" class="shadow" 
-        data-bottom-top={w > 1100 ? "background-size: 100%" : "background-position-x: 50px"}
-        data-top-bottom={w > 1100 ? "background-size: 150%" : "background-position-x: -100px"}
+        data-bottom-top={w > 810 ? "background-size: 100%" : "background-size: 300%; background-position-x: -100px"}
+        data-top-bottom={w > 810 ? "background-size: 150%" : "background-size: 400%"}
         >
-            <nav id="tabs">
-                <a href="#screen2" class="tab">PROJECTS</a> 
-                <a href="#screen3" class="tab">RESUME</a>
-                <a href="#screen4" class="tab">ABOUT</a>
-                <SmallNav />
-            </nav>
+            <Nav />
             <Spring
                 from={{
                     opacity:0, 
@@ -52,8 +44,8 @@ const SectionOne = () => {
                 }
             </Spring>
             <div class="fixed-imgspace"
-            data-center-center="opacity: 0; pointer-events: none"
-            data-top-bottom="opacity: 1; pointer-events: auto"    
+            data-center-center="transform:translateX(-100px); pointer-events: none; opacity: 0"
+            data-top-bottom="transform:translateX(0px); pointer-events: auto; opacity: 1"    
             >
                 <ul>
                     <li><a href="https://github.com/mumana98"><img src={githubImg} /></a></li>

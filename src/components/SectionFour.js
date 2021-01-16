@@ -4,12 +4,11 @@ import selfPortrait from '../css/selfPortrait.png'
 const SectionFour = () => {
 
     let w = window.innerWidth
-    let h = window.innerHeight
 
     return(
         <section id="screen4" class="shadow"
-        data-bottom-top={w > 1100 ? "background-size: 100%" : "background-position-x: -500px"}
-        data-top-bottom={w > 1100 ? "background-size: 150%" : "background-position-x: -300px"}
+        data-bottom-top={w > 1000 ? "background-size: 100%" : "background-size: 350%"}
+        data-top-bottom={w > 1000 ? "background-size: 150%" : "background-size: 450%"}
             >
             <h2>ABOUT</h2>
             <div id="photo"
