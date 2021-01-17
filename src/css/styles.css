@@ -407,6 +407,9 @@ h2{
     .fixed-imgspace{
         display: none;
     }
+    #side-nav{
+        display: none;
+    }
     #tabs {
         display: flex; 
         justify-content: flex-end
@@ -464,6 +467,9 @@ h2{
         background-size: 300%;
     }
     .fixed-imgspace{
+        display: none;
+    }
+    #side-nav{
         display: none;
     }
     #photo img {
