@@ -22,8 +22,10 @@ Newest iteration of my own website remade in React. With the help of npm package
 - CSS
 - Javascript
 - React
+- Material UI
 - Skrollr
 - React-Spring
+- React-Headroom
 - Yarn
 - gh-pages
 
