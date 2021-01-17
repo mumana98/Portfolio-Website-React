@@ -44,7 +44,7 @@ const SectionOne = () => {
                 }
             </Spring>
             <div class="fixed-imgspace"
-            data-center-center="transform:translateX(-100px); pointer-events: none; opacity: 0"
+            data-center-top="transform:translateX(-100px); pointer-events: none; opacity: 0"
             data-top-bottom="transform:translateX(0px); pointer-events: auto; opacity: 1"    
             >
                 <ul>
@@ -53,6 +53,14 @@ const SectionOne = () => {
                     <li><a href="https://www.facebook.com/"><img src={facebookImg} /></a></li>
                 </ul>
             </div>
+            <nav id="side-nav"
+            data-center-top="transform:translateX(120px); pointer-events: none; opacity: 0"
+            data-top-bottom="transform:translateX(0px); pointer-events: auto; opacity: 1" 
+            >
+                <a href="#screen2" class="tab">PROJECTS</a> 
+                <a href="#screen3" class="tab">RESUME</a>
+                <a href="#screen4" class="tab">ABOUT</a>
+            </nav>
         </section> 
     )
 }

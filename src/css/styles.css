@@ -39,9 +39,23 @@ body, html{
     display: none;
 }
 
+#side-nav {
+    height: max-content;
+    width: 80px;
+    position: fixed;
+    display: block;
+    right: 0;
+    top: 33%;
+}
+
+#side-nav > a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .headroom {
     width: inherit;
-  }
+}
 
 section{
     height: 100vh;
@@ -109,7 +123,6 @@ h1, h2{
     display: block;
     left: 0;
     top: 33%;
-    opacity: 0;
 }
 
 a{
