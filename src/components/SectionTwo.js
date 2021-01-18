@@ -29,8 +29,8 @@ const SectionTwo = () => {
                 pagination
                 scrollbar
                 slidesPerView={w > 1000 ? 2 : 1}
-                data-bottom-top="transform:translateY(600px)"
-                data-top-bottom="transform:translateY(-100px)"
+                data-bottom-top="top: 100%"
+                data-top-top="top: 25%"
                 >
                     <SwiperSlide>
                         <ProjectOne />
