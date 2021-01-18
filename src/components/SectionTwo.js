@@ -25,12 +25,13 @@ const SectionTwo = () => {
             >
                 <h2>PROJECTS</h2>
                 <Swiper
+                loop={true}
                 navigation
-                pagination
-                scrollbar
+                pagination={{ clickable: true }}
                 slidesPerView={w > 1000 ? 2 : 1}
                 data-bottom-top="top: 100%"
-                data-top-top="top: 25%"
+                data-top-top="top: 20%"
+                data-top-bottom="top: -20%"
                 >
                     <SwiperSlide>
                         <ProjectOne />
