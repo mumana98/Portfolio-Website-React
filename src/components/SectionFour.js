@@ -6,7 +6,7 @@ const SectionFour = () => {
     let w = window.innerWidth
 
     return(
-        <section id="screen4" class="shadow"
+        <section id="screen4"
         data-bottom-top={w > 1000 ? "background-size: 100%" : "background-size: 350%"}
         data-top-bottom={w > 1000 ? "background-size: 150%" : "background-size: 450%"}
             >

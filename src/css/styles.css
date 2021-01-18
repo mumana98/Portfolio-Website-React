@@ -45,12 +45,12 @@ body, html{
     position: fixed;
     display: block;
     right: 0;
-    top: 33%;
+    top: 30%;
 }
 
 #side-nav > a {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .headroom {
@@ -242,9 +242,6 @@ h2{
     width:85%;
     height:100%;
     margin: 0 auto;
-}
-
-.shadow{
     box-shadow:12px 0 15px -4px #000, -12px 0 15px -4px #000;
 }
 

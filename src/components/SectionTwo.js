@@ -19,7 +19,7 @@ const SectionTwo = () => {
 
 
     return(
-        <section id="screen2" class="shadow"
+        <section id="screen2"
         data-bottom-top={w > 1000 ? "background-size: 100%" : "background-size: 350%; background-position-x: -100px"}
         data-top-bottom={w > 1000 ? "background-size: 150%" : "background-size: 450%"}
             >

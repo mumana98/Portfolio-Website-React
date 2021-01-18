@@ -11,7 +11,7 @@ const SectionOne = () => {
     let w = window.innerWidth
 
     return(
-        <section id="screen1" class="shadow" 
+        <section id="screen1"
         data-bottom-top={w > 810 ? "background-size: 100%" : "background-size: 300%; background-position-x: -100px"}
         data-top-bottom={w > 810 ? "background-size: 150%" : "background-size: 400%"}
         >
