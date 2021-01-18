@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fa51a3ea9ca1f3017d87da997ef3af9",
+    "revision": "55d657cd57e0c3c55ec897a1b7089527",
     "url": "/Portfolio-Website-React/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website-React/static/css/2.9aae25f0.chunk.css"
   },
   {
-    "revision": "90a4c6782b71bdd1d025",
-    "url": "/Portfolio-Website-React/static/css/main.87e5fff3.chunk.css"
+    "revision": "49fcab48f395e3a5b84f",
+    "url": "/Portfolio-Website-React/static/css/main.4db54551.chunk.css"
   },
   {
     "revision": "8a0b940aa651e36b006f",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website-React/static/js/2.331de5f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90a4c6782b71bdd1d025",
-    "url": "/Portfolio-Website-React/static/js/main.a8bc2fde.chunk.js"
+    "revision": "49fcab48f395e3a5b84f",
+    "url": "/Portfolio-Website-React/static/js/main.ae908525.chunk.js"
   },
   {
     "revision": "32fffa809c5bcb61ce2e",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "543761c6f36f5fdd844fb89ee596fc05",
     "url": "/Portfolio-Website-React/static/media/SanAntonio.543761c6.png"
-  },
-  {
-    "revision": "f8b5e5a82188dcf7e6e5e3dcc2e3ec55",
-    "url": "/Portfolio-Website-React/static/media/ZombieHorrorProject.f8b5e5a8.png"
   },
   {
     "revision": "705247c39e78c28bf0cda0f137b24cab",
