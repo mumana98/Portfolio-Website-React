@@ -246,6 +246,19 @@ h2{
 .shadow{
     box-shadow:12px 0 15px -4px #000, -12px 0 15px -4px #000;
 }
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 50px;
+    color: #5DE6FF;
+    width: 100px;
+}
+
+.swiper-container {
+    text-align: center;
+    border-top: 2px solid #5DE6FF;
+    border-bottom: 2px solid #5DE6FF;
+    background-color: rgba(0, 0, 0, .50);
+}
         
 .active{
     background:#5DE6FF;

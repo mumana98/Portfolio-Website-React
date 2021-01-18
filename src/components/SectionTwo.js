@@ -1,9 +1,22 @@
 import React from 'react'
 import arrow from '../css/arrow.png'
 
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/swiper-bundle.css'
+
+import ProjectOne from './projects/ProjectOne'
+// install Swiper components
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
+
+
 const SectionTwo = () => {
 
     let w = window.innerWidth
+
 
     return(
         <section id="screen2" class="shadow"
@@ -11,53 +24,27 @@ const SectionTwo = () => {
         data-top-bottom={w > 1000 ? "background-size: 150%" : "background-size: 450%"}
             >
                 <h2>PROJECTS</h2>
-                <div class="grid-container"
-                data-bottom-top="transform:translateY(200px)"
-                data-top-bottom="transform:translateY(-240px)"
+                <Swiper
+                navigation
+                pagination
+                scrollbar
+                slidesPerView={w > 1000 ? 2 : 1}
+                data-bottom-top="transform:translateY(600px)"
+                data-top-bottom="transform:translateY(-100px)"
                 >
-                    <section class="carousel" aria-label="Gallery">
-                        <ol class="carousel__viewport">
-                            <li id="carousel__slide1" class="carousel__slide">
-                                <div class="container" id="project_1">
-                                    <div class="card shadow">
-                                        <div class="front face" id="card1"></div>
-                                        <div class="back face center">
-                                            Todo List - 
-                                            <br/>
-                                            <a href="https://github.com/mumana98/Todo-List">View on GitHub</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="container" id="project_2">
-                                    <div class="card shadow">
-                                        <div class="front face" id="card2"></div>
-                                        <div class="back face center">
-                                            Zombie Level Design - 
-                                            <br/>
-                                            <a href="https://crimzen.itch.io/">View on itch.io</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="#carousel__slide2" class="carousel__prev"><img id="left_arrow" src={arrow} alt=""/></a>
-                                <a href="#carousel__slide2" class="carousel__next"><img id="right_arrow" src={arrow} alt=""/></a>
-                            </li>
-                            <li id="carousel__slide2" class="carousel__slide">
-                                <div class="container" id="project_3">
-                                    <div class="card shadow">
-                                        <div class="front face" id="card3"></div>
-                                        <div class="back face center">
-                                            Zombie Level Design - 
-                                            <br/>
-                                            <a href="https://crimzen.itch.io/">View on itch.io</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="#carousel__slide1" class="carousel__prev"><img id="left_arrow" src={arrow} alt=""/></a>
-                                <a href="#carousel__slide1" class="carousel__next"><img id="right_arrow" src={arrow} alt=""/></a>
-                            </li>
-                        </ol>
-                    </section>
-                </div>
+                    <SwiperSlide>
+                        <ProjectOne />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ProjectOne />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ProjectOne />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <ProjectOne />
+                    </SwiperSlide>
+                </Swiper>
         </section>
     )
 }
