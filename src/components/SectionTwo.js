@@ -1,15 +1,11 @@
 import React from 'react'
 import arrow from '../css/arrow.png'
 
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/swiper-bundle.css'
-
 import ProjectOne from './projects/ProjectOne'
-// install Swiper components
+
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css'
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 
@@ -26,7 +22,7 @@ const SectionTwo = () => {
                 <h2>PROJECTS</h2>
                 <Swiper
                 loop={true}
-                navigation
+                navigation={w > 600 ? true : false}
                 pagination={{ clickable: true }}
                 slidesPerView={w > 1000 ? 2 : 1}
                 data-bottom-top="top: 100%"
