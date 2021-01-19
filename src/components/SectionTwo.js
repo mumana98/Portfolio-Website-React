@@ -7,11 +7,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css'
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
-
 const SectionTwo = () => {
 
     let w = window.innerWidth
-
 
     return(
         <section id="screen2"

@@ -55,7 +55,7 @@ const SectionOne = () => {
             </div>
             <nav id="side-nav"
             data-center-top="transform:translateX(120px); pointer-events: none; opacity: 0"
-            data-top-bottom="transform:translateX(0px); pointer-events: auto; opacity: 1" 
+            data-top-bottom="transform:translateX(-8px); pointer-events: auto; opacity: 1" 
             >
                 <a href="#screen2" class="tab">PROJECTS</a> 
                 <a href="#screen3" class="tab">RESUME</a>
