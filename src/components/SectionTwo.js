@@ -1,5 +1,4 @@
 import React from 'react'
-import arrow from '../css/arrow.png'
 
 import ProjectOne from './projects/ProjectOne'
 

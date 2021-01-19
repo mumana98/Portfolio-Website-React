@@ -352,6 +352,9 @@ h2{
         height: 80%;
         margin: 0 0;
     }
+    #infospace {
+        margin-top: 0;
+    }
 
 }
 
@@ -407,6 +410,9 @@ h2{
         width: 100%;
         height: 80%;
         margin: 0 0;
+    }
+    #infospace {
+        margin-top: 0;
     }
 }
 
