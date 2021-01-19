@@ -33,6 +33,10 @@ body, html{
     font-weight: thin;
     background:#313131; 
     color:#fff;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 
 .small-nav{
@@ -80,23 +84,27 @@ section, section *{
 #screen1{
     background-image:url(Austin.png);
     border: 2px solid #5DE6FF;
+    scroll-snap-align: start;
 }
 
 #screen2{
     position: relative;
     background-image:url(SanAntonio.png);
     border: 2px solid #5DE6FF;
+    scroll-snap-align: start;
 }
 
 #screen3{
     background-image:url(Houston.png);
     border: 2px solid #5DE6FF;
+    scroll-snap-align: start;
 }
 
 #screen4{
     text-align: center;
     background-image:url(image\ \(4\)-min.png);
     border: 2px solid #5DE6FF;
+    scroll-snap-align: start;
 }
 
 h1, h2{
@@ -368,7 +376,6 @@ h2{
     }
     #section{
         background-position: center center;
-
         background-size: 300%;
     }
     #screen1{
