@@ -14,6 +14,7 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 600,
     margin: '60px',
+    border: '2px solid #5DE6FF',
   },
   media: {
     height: 140,
@@ -23,12 +24,15 @@ const useStyles = makeStyles({
 const ProjectOne = () => {
   const classes = useStyles()
 
+  let w = window.innerWidth
+
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{margin: w > 1000 ? "60px" : "40px"}}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
           image={ProjectImg}
+          style={{height: w > 1000 ? 140 : 160}}
           title="Todo List"
         />
         <CardContent>

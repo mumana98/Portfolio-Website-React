@@ -17,10 +17,12 @@
     z-index: 11;
     pointer-events: none;
 }
+
 #cover img{
     margin-top: 45vh;
     animation: spin 1s linear infinite;
 }
+
 @keyframes spin{
     0%{transform: rotate(360deg);}
     100%{transform: rotate(0deg);}
@@ -275,7 +277,7 @@ h2{
 }
 
 #resume{
-    background-color: #fff;
+    background-color: rgba(0,0,0,0.5);
     width: 50%;
     height: 90%;
     margin: 0px 25%;

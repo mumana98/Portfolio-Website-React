@@ -1,8 +1,11 @@
 import React from 'react'
+import LoadingCircle from '../css/loadingCircle.png'
 
 const Cover = () => {
     return(
-        <img src="./css/loadingCircle.png"/>
+        <div id="cover">
+            <img src={LoadingCircle}/>
+        </div>
     )
 }
 

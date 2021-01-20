@@ -1,9 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './css/styles.css'
 import SectionBody from './components/SectionBody'
+import LoadScreen from './components/Cover'
 
 const App = () => {
+
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => {
+
+      setLoading(false)
+    }, 3000)
+  }, [])
+
   return (
+    <>
+    { loading === false ? 
     <div className="App">
 
       <head>
@@ -12,7 +25,11 @@ const App = () => {
           <link href="./css/styles.css" rel="stylesheet"/>
       </head>
       <SectionBody />
-    </div>
+    </div> 
+    :
+    <LoadScreen />
+    }
+    </>
   )
 }
 

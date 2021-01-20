@@ -22,6 +22,7 @@ const SectionTwo = () => {
                 navigation={w > 600 ? true : false}
                 pagination={{ clickable: true }}
                 slidesPerView={w > 1000 ? 2 : 1}
+                spaceBetween={10}
                 data-bottom-top="top: 100%"
                 data-top-top="top: 20%"
                 data-top-bottom="top: -20%"
