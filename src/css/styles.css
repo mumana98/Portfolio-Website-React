@@ -282,6 +282,19 @@ h2{
     box-shadow: 8px 0 15px -4px #000, -8px 0 15px -4px #000;
 }
 
+#copywrite {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Gothic A1';
+    font-weight: normal;
+    font-size: 1em;
+    color: #5DE6FF;
+    width: 100%;
+    border-top: 2px solid #5DE6FF;
+    background-color: #131313be;
+}
+
 @keyframes selected{
     0%{
         height: 4em;
@@ -364,6 +377,7 @@ h2{
     }
     #infospace {
         margin-top: 0;
+        top: 55%;
     }
 
 }
@@ -422,6 +436,7 @@ h2{
     }
     #infospace {
         margin-top: 0;
+        top: 55%;
     }
 }
 

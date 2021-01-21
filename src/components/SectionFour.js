@@ -18,7 +18,7 @@ const SectionFour = () => {
 
             <div id="infospace"
             data-bottom-top="transform:translateY(200px)"
-            data-end="transform:translateY(40px)"
+            data-end="transform:translateY(0px)"
             >
                 <p>
                     Since 7th grade, game development was my passion - mainly the programming portion. I loved creating game mechanics 
@@ -42,6 +42,7 @@ const SectionFour = () => {
                     <br/>
                 </p>
             </div>
+            <p id="copywrite">&#169; Matthew Umana 2021</p>
         </section>
     )
 }
