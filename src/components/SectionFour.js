@@ -18,7 +18,7 @@ const SectionFour = () => {
 
             <div id="infospace"
             data-bottom-top="transform:translateY(200px)"
-            data-end="transform:translateY(50px)"
+            data-end="transform:translateY(40px)"
             >
                 <p>
                     Since 7th grade, game development was my passion - mainly the programming portion. I loved creating game mechanics 
@@ -35,6 +35,11 @@ const SectionFour = () => {
                     and situations. Creating my own website has been one of the most enjoyable projects I have done - comparable to 
                     participating in the 2019 Diversity Hackathon. I do not regret making this transition to software development 
                     and I hope to learn more about it each day I pursue it.
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                 </p>
             </div>
         </section>

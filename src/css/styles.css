@@ -271,10 +271,6 @@ h2{
     border: 10px solid #5DE6FF;
     color: #5DE6FF;
 }
-        
-.active{
-    background:#5DE6FF;
-}
 
 #resume{
     background-color: rgba(0,0,0,0.5);
@@ -297,6 +293,8 @@ h2{
         height: 5em;
         width: 5em;
         margin: 1.5em;
+        border-radius: 50%;
+        box-shadow: 8px 0 15px -4px #000, -8px 0 15px -4px #000;
     }
 }
 
@@ -311,6 +309,8 @@ h2{
         height: 4em;
         width: 4em;
         margin: 0.5em;
+        border-radius: 50%;
+        box-shadow: 8px 0 15px -4px #000, -8px 0 15px -4px #000;
     }
 }
 

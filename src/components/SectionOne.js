@@ -20,7 +20,6 @@ const SectionOne = () => {
                 from={{
                     opacity:0, 
                     marginTop: 150,
-                    wordSpacing: 75,
                     letterSpacing: 75,
                 }}
                 to={{
