@@ -5,6 +5,9 @@ const SectionFour = () => {
 
     let w = window.innerWidth
 
+    let d = new Date();
+    let n = d.getFullYear();
+
     return(
         <section id="screen4"
         data-bottom-top={w > 1000 ? "background-size: 100%" : "background-size: 350%"}
@@ -42,7 +45,7 @@ const SectionFour = () => {
                     <br/>
                 </p>
             </div>
-            <p id="copywrite">&#169; Matthew Umana 2021</p>
+            <p id="copywrite">&#169; Matthew Umana {n}</p>
         </section>
     )
 }
