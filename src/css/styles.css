@@ -318,6 +318,16 @@ h2{
     outline-offset: -1px;
 }
 
+.jss17 { /*class only appears in deployment? */
+    /* outline: 1px solid #5DE6FF;
+    -webkit-outline: 1px solid #5DE6FF; */
+    /* border: 1px solid #5DE6FF; */
+    -webkit-background-color: #5DE6FF !important;
+    -moz-background-color: #5DE6FF !important;
+    background-color: #5DE6FF !important;
+    outline-offset: -1px;
+}
+
 .makeStyles-root-11 {
     padding: 0;
     margin: 0;
