@@ -28,18 +28,26 @@
     100%{transform: rotate(0deg);}
 }
 
-body, html{
+@supports (text-align-last: justify) { /* Very hacky - only here to not run on safari because these properties causes the screen to jitter drastically */
+    body, html {
+        -webkit-scroll-snap-type: y mandatory;
+        -webkit-scroll-behavior: smooth;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+    }
+}
+
+body, html {
     height:100%;
     min-height: 100%;
     font-family: 'Lato', sans-serif; 
     font-weight: thin;
     background:#313131; 
-    color:#fff;
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
+    color:#5DE6FF;
+    -webkit-overflow-scrolling: touch;
 }
+
+
 
 .small-nav{
     display: none;
@@ -77,6 +85,11 @@ section{
     -moz-background-position: center; 
     -o-background-position: center; 
     overflow:hidden;
+    -webkit-scroll-snap-align: start;
+    -moz-scroll-snap-align: start;
+    -o-scroll-snap-align: start;
+    scroll-snap-align: start;
+    border: 2px solid #5DE6FF;
 }
 
 section, section *{
@@ -85,28 +98,23 @@ section, section *{
 
 #screen1{
     background-image:url(Austin.png);
-    border: 2px solid #5DE6FF;
-    scroll-snap-align: start;
+
 }
 
 #screen2{
     position: relative;
     background-image:url(SanAntonio.png);
-    border: 2px solid #5DE6FF;
-    scroll-snap-align: start;
+
 }
 
 #screen3{
     background-image:url(Houston.png);
-    border: 2px solid #5DE6FF;
-    scroll-snap-align: start;
+
 }
 
 #screen4{
     text-align: center;
     background-image:url(image\ \(4\)-min.png);
-    border: 2px solid #5DE6FF;
-    scroll-snap-align: start;
 }
 
 h1, h2{
@@ -114,6 +122,8 @@ h1, h2{
     text-align:center;
     color: #5DE6FF;
 }
+
+
 
 #namespace > a{
     font-family: 'Lato', sans-serif; 
@@ -272,6 +282,12 @@ h2{
     color: #5DE6FF;
 }
 
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #resume{
     background-color: rgba(0,0,0,0.5);
     width: 50%;
@@ -280,6 +296,21 @@ h2{
     border-radius: 10px;
     border: 2px solid #5DE6FF;
     box-shadow: 8px 0 15px -4px #000, -8px 0 15px -4px #000;
+}
+
+.PrivateTabIndicator-root-13 {
+    outline: 1px solid #5DE6FF;
+    outline-offset: -1px;
+} 
+
+.PrivateTabIndicator-colorSecondary-17 {
+    outline: 1px solid #5DE6FF;
+    outline-offset: -1px;
+}
+
+.makeStyles-root-11 {
+    padding: 0;
+    margin: 0;
 }
 
 #copywrite {

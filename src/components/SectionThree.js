@@ -1,5 +1,6 @@
 import React from 'react'
 import resume from '../css/Resume_V2.pdf'
+import ResumeMenu from './ResumeTabContent/ResumeContainer'
 
 const SectionThree = () => {
 
@@ -11,12 +12,13 @@ const SectionThree = () => {
         data-top-bottom={w > 810 ? "background-size: 150%" : "background-size: 400%; background-position-x: -100px"}
         >
             <h2>RESUME</h2>
-            <a href={resume}>
+            <ResumeMenu />
+            {/* <a href={resume}>
                 <embed id="resume" src={resume}
                     data-bottom-top="transform:translateY(450px)"
                     data-top-bottom="transform:translateY(-200px)"
                 />
-            </a>
+            </a> */}
         </section> 
     )
 }

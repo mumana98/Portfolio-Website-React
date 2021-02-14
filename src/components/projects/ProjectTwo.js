@@ -8,7 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 
-import ProjectImg from '../../css/todo.png'
+import ProjectImg from '../../css/Out_There_IMG.png'
 
 const useStyles = makeStyles({
     root: {
@@ -21,7 +21,7 @@ const useStyles = makeStyles({
     },
 })
 
-const ProjectOne = () => {
+const ProjectTwo = () => {
     const classes = useStyles()
 
     let w = window.innerWidth
@@ -33,27 +33,27 @@ const ProjectOne = () => {
                 className={classes.media}
                 image={ProjectImg}
                 style={{height: w > 1000 ? 140 : 160}}
-                title="Todo List"
+                title="Out There"
                 />
                 <CardContent>
-                <Typography gutterBottom variant="h5" component="h3">
-                    To-Do List
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                    This todo list was made following the Udemey course Web Programming.
-                </Typography>
+                    <Typography gutterBottom variant="h5" component="h3">
+                        Out There
+                    </Typography>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                        This website serves as a hub for finding volunteer opportunities in your area.
+                    </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="small" color="primary">
-                    <a href="">View</a>
+                <a href="">View</a>
                 </Button>
                 <Button size="small" color="primary">
-                    <a href="">GitHub</a>
+                <a href="">GitHub</a>
                 </Button>
             </CardActions>
         </Card>
     )
 }
 
-export default ProjectOne
+export default ProjectTwo

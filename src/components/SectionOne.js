@@ -44,7 +44,7 @@ const SectionOne = () => {
             </Spring>
             <div class="fixed-imgspace"
             data-center-top="transform:translateX(-100px); pointer-events: none; opacity: 0"
-            data-top-bottom="transform:translateX(0px); pointer-events: auto; opacity: 1"    
+            data-top-bottom="transform:translateX(10px); pointer-events: auto; opacity: 1"    
             >
                 <ul>
                     <li><a href="https://github.com/mumana98"><img src={githubImg} /></a></li>

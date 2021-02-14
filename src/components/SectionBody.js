@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import skrollr from 'skrollr'
 import SectionOne from './SectionOne'
 import SectionTwo from './SectionTwo'
@@ -26,3 +26,5 @@ const SectionBody = () => {
 }
 
 export default SectionBody
+
+

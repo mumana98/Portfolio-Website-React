@@ -1,6 +1,7 @@
 import React from 'react'
 
 import ProjectOne from './projects/ProjectOne'
+import ProjectTwo from './projects/ProjectTwo'
 
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -23,6 +24,7 @@ const SectionTwo = () => {
                 pagination={{ clickable: true }}
                 slidesPerView={w > 1000 ? 2 : 1}
                 spaceBetween={10}
+                style={{height: '50vh'}}
                 data-bottom-top="top: 100%"
                 data-top-top="top: 20%"
                 data-top-bottom="top: -20%"
@@ -31,13 +33,13 @@ const SectionTwo = () => {
                         <ProjectOne />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <ProjectOne />
+                        <ProjectTwo />
                     </SwiperSlide>
                     <SwiperSlide>
                         <ProjectOne />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <ProjectOne />
+                        <ProjectTwo />
                     </SwiperSlide>
                 </Swiper>
         </section>
