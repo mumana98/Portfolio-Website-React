@@ -300,11 +300,15 @@ h2{
 
 .PrivateTabIndicator-root-13 {
     outline: 1px solid #5DE6FF;
+    -webkit-outline: 1px solid #5DE6FF;
+    background-color: #5DE6FF;
     outline-offset: -1px;
 } 
 
 .PrivateTabIndicator-colorSecondary-17 {
     outline: 1px solid #5DE6FF;
+    -webkit-outline: 1px solid #5DE6FF;
+    background-color: #5DE6FF;
     outline-offset: -1px;
 }
 
