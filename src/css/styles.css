@@ -47,8 +47,6 @@ body, html {
     -webkit-overflow-scrolling: touch;
 }
 
-
-
 .small-nav{
     display: none;
 }
@@ -122,8 +120,6 @@ h1, h2{
     text-align:center;
     color: #5DE6FF;
 }
-
-
 
 #namespace > a{
     font-family: 'Lato', sans-serif; 
@@ -275,6 +271,11 @@ h2{
     border-top: 2px solid #5DE6FF;
     border-bottom: 2px solid #5DE6FF;
     background-color: rgba(0, 0, 0, .50);
+    overflow: visible !important;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: -40px !important;
 }
 
 .swiper-pagination-bullet, .swiper-pagination-bullet-active {
@@ -299,33 +300,21 @@ h2{
 }
 
 .PrivateTabIndicator-root-13 {
-    /* outline: 1px solid #5DE6FF;
-    -webkit-outline: 1px solid #5DE6FF; */
-    /* border: 1px solid #5DE6FF; */
     -webkit-background-color: #5DE6FF !important;
     -moz-background-color: #5DE6FF !important;
     background-color: #5DE6FF !important;
-    outline-offset: -1px;
 } 
 
 .PrivateTabIndicator-colorSecondary-17 {
-    /* outline: 1px solid #5DE6FF;
-    -webkit-outline: 1px solid #5DE6FF; */
-    /* border: 1px solid #5DE6FF; */
     -webkit-background-color: #5DE6FF !important;
     -moz-background-color: #5DE6FF !important;
     background-color: #5DE6FF !important;
-    outline-offset: -1px;
 }
 
 .jss17 { /*class only appears in deployment? */
-    /* outline: 1px solid #5DE6FF;
-    -webkit-outline: 1px solid #5DE6FF; */
-    /* border: 1px solid #5DE6FF; */
     -webkit-background-color: #5DE6FF !important;
     -moz-background-color: #5DE6FF !important;
     background-color: #5DE6FF !important;
-    outline-offset: -1px;
 }
 
 .makeStyles-root-11 {
@@ -377,7 +366,14 @@ h2{
         box-shadow: 8px 0 15px -4px #000, -8px 0 15px -4px #000;
     }
 }
-
+@media screen and (min-width:2200px){
+    body{ 
+        font-size:2rem;
+    }
+    #side-nav {
+        width: 160px;
+    }
+}
 @media screen and (max-width:1136px){
     body{ 
         font-size:12px;

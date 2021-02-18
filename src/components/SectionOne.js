@@ -43,8 +43,8 @@ const SectionOne = () => {
                 }
             </Spring>
             <div class="fixed-imgspace"
-            data-center-top="transform:translateX(-100px); pointer-events: none; opacity: 0"
-            data-top-bottom="transform:translateX(10px); pointer-events: auto; opacity: 1"    
+            data-center-top="left: -10%; pointer-events: none; opacity: 0"
+            data-top-bottom="left: 0%; pointer-events: auto; opacity: 1"    
             >
                 <ul>
                     <li><a href="https://github.com/mumana98"><img src={githubImg} /></a></li>
@@ -53,8 +53,8 @@ const SectionOne = () => {
                 </ul>
             </div>
             <nav id="side-nav"
-            data-center-top="transform:translateX(120px); pointer-events: none; opacity: 0"
-            data-top-bottom="transform:translateX(-8px); pointer-events: auto; opacity: 1" 
+            data-center-top="right: -10%; pointer-events: none; opacity: 0"
+            data-top-bottom="right: 0%; pointer-events: auto; opacity: 1" 
             >
                 <a href="#screen2" class="tab">PROJECTS</a> 
                 <a href="#screen3" class="tab">RESUME</a>
