@@ -13,6 +13,7 @@ import ProjectImg from '../../css/todo.png'
 const useStyles = makeStyles({
     root: {
         maxWidth: 600,
+        maxHeight: 'inherit',
         margin: '60px',
         border: '2px solid #5DE6FF',
     },
