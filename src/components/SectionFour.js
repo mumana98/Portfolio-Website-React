@@ -16,8 +16,9 @@ const SectionFour = () => {
             <h2>ABOUT</h2>
             <div id="photo"
             data-bottom-top="transform:translateY(0px)"
-            data-end="transform:translateY(100px)"
-            ><img src={selfPortrait} alt=""/></div>
+            data-end={w > 1900 ? "transform:translateY(150px)" : "transform:translateY(100px)"}
+            ><img src={selfPortrait} alt=""/>
+            </div>
 
             <div id="infospace"
             data-bottom-top="transform:translateY(200px)"

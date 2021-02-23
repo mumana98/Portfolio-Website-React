@@ -3,9 +3,9 @@ import React from 'react'
 const Technologies = () => {
     return (
         <div>
-            <h3>Technical Skills</h3>
-            <div style={{fontSize:'14px'}}>
-                <div id="column_one" style={{display:"inline-block", margin:"10px"}}>
+            <h3 class="resume-title">Technical Skills</h3>
+            <div id="technical-skills">
+                <div class="column_one" style={{display:"inline-block", margin:"10px"}}>
                     <h4>Languages:</h4>
                     <p>Python, Javascript, HTML, CSS, C# </p>
                     <br/>
@@ -16,7 +16,7 @@ const Technologies = () => {
                     <p>Visual Studio code, Visual Studio, Sublime Text, Brackets, Unity</p>
                     <br/>
                 </div>
-                <div id="column_two" style={{display:"inline-block", margin:"10px"}}>
+                <div class="column_two" style={{display:"inline-block", margin:"10px"}}>
                     <h4>Version Control:</h4>
                     <p>Git, SVN</p>
                     <br/>

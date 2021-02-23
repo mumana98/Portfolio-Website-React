@@ -3,8 +3,8 @@ import React from 'react'
 const Experience = () => {
     return (
         <div>
-            <h3>Experience</h3>
-            <div style={{fontSize:'14px'}}>
+            <h3 class="resume-title">Experience</h3>
+            <div id="experience" style={{width: "75%"}}>
                 <p>UTeach Outreach - Computer Science and Science Intern (8/2018 - Present)</p>
                 <br/>
                 <p>UTeach Outreach - Python, Electrical Engineer (Arduino), Logic Intern (6/2020 - 7/2020)</p>

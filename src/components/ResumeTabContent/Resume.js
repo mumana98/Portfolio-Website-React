@@ -3,7 +3,7 @@ import resume from '../../css/Resume_V2.pdf'
 
 const Resume = () => {
     return (
-        <div>
+        <div id="resume-download">
             <p>Download my resume <a href={resume} style={{textDecoration:'underline'}}>here</a></p>
         </div>
     )
