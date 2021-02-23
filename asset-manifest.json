@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website-React/static/css/main.8eb635ba.chunk.css",
-    "main.js": "/Portfolio-Website-React/static/js/main.a57d7682.chunk.js",
-    "main.js.map": "/Portfolio-Website-React/static/js/main.a57d7682.chunk.js.map",
+    "main.css": "/Portfolio-Website-React/static/css/main.c2af7b2f.chunk.css",
+    "main.js": "/Portfolio-Website-React/static/js/main.4a51e09e.chunk.js",
+    "main.js.map": "/Portfolio-Website-React/static/js/main.4a51e09e.chunk.js.map",
     "runtime-main.js": "/Portfolio-Website-React/static/js/runtime-main.f3062c71.js",
     "runtime-main.js.map": "/Portfolio-Website-React/static/js/runtime-main.f3062c71.js.map",
     "static/css/2.9aae25f0.chunk.css": "/Portfolio-Website-React/static/css/2.9aae25f0.chunk.css",
     "static/js/2.cace3a03.chunk.js": "/Portfolio-Website-React/static/js/2.cace3a03.chunk.js",
     "static/js/2.cace3a03.chunk.js.map": "/Portfolio-Website-React/static/js/2.cace3a03.chunk.js.map",
     "index.html": "/Portfolio-Website-React/index.html",
-    "precache-manifest.eb38a951c982737a937230430c0d231a.js": "/Portfolio-Website-React/precache-manifest.eb38a951c982737a937230430c0d231a.js",
+    "precache-manifest.b65d5f25b732caaf2685cf187715966a.js": "/Portfolio-Website-React/precache-manifest.b65d5f25b732caaf2685cf187715966a.js",
     "service-worker.js": "/Portfolio-Website-React/service-worker.js",
     "static/css/2.9aae25f0.chunk.css.map": "/Portfolio-Website-React/static/css/2.9aae25f0.chunk.css.map",
-    "static/css/main.8eb635ba.chunk.css.map": "/Portfolio-Website-React/static/css/main.8eb635ba.chunk.css.map",
+    "static/css/main.c2af7b2f.chunk.css.map": "/Portfolio-Website-React/static/css/main.c2af7b2f.chunk.css.map",
     "static/js/2.cace3a03.chunk.js.LICENSE.txt": "/Portfolio-Website-React/static/js/2.cace3a03.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/Portfolio-Website-React/static/media/image (4)-min.0de996fd.png",
     "static/media/Out_There_IMG.png": "/Portfolio-Website-React/static/media/Out_There_IMG.62fa05fe.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.f3062c71.js",
     "static/css/2.9aae25f0.chunk.css",
     "static/js/2.cace3a03.chunk.js",
-    "static/css/main.8eb635ba.chunk.css",
-    "static/js/main.a57d7682.chunk.js"
+    "static/css/main.c2af7b2f.chunk.css",
+    "static/js/main.4a51e09e.chunk.js"
   ]
 }
