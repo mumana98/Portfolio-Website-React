@@ -309,12 +309,24 @@ h2{
     -webkit-background-color: #5DE6FF !important;
     -moz-background-color: #5DE6FF !important;
     background-color: #5DE6FF !important;
+    outline: 1px solid #5DE6FF;
+    outline-offset: -1px;
+}
+
+.PrivateTabIndicator-colorSecondary-19 {
+    -webkit-background-color: #5DE6FF !important;
+    -moz-background-color: #5DE6FF !important;
+    background-color: #5DE6FF !important;
+    outline: 1px solid #5DE6FF;
+    outline-offset: -1px;
 }
 
 .jss17 { /*class only appears in deployment? */
     -webkit-background-color: #5DE6FF !important;
     -moz-background-color: #5DE6FF !important;
     background-color: #5DE6FF !important;
+    outline: 1px solid #5DE6FF;
+    outline-offset: -1px;
 }
 
 .makeStyles-root-11 {

@@ -2,6 +2,7 @@ import React from 'react'
 
 import ProjectOne from './projects/ProjectOne'
 import ProjectTwo from './projects/ProjectTwo'
+import ProjectThree from './projects/ProjectThree'
 
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -36,7 +37,7 @@ const SectionTwo = () => {
                         <ProjectTwo />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <ProjectOne />
+                        <ProjectThree />
                     </SwiperSlide>
                     <SwiperSlide>
                         <ProjectTwo />
