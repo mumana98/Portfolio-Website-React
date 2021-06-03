@@ -7,9 +7,9 @@ import facebookImg from '../css/icons8-facebook-100.png'
 const Links = () => {
     return (
         <div id="imgspace">
-            <a href="https://github.com/mumana98"><img src={githubImg} /></a>
-            <a href="https://www.linkedin.com/in/matthew-umana"><img src={linkedinImg}/></a>
-            <a href="https://www.facebook.com/"><img src={facebookImg} /></a>
+            <a href="https://github.com/mumana98" target="_blank"><img src={githubImg} /></a>
+            <a href="https://www.linkedin.com/in/matthew-umana" target="_blank"><img src={linkedinImg}/></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src={facebookImg} /></a>
         </div>
     )
 }

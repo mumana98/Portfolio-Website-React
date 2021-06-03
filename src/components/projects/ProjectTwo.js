@@ -47,10 +47,10 @@ const ProjectTwo = () => {
             </CardActionArea>
             <CardActions>
                 <Button size="small" color="primary">
-                <a href="https://spring-2021.cs.utexas.edu/cs329e-bulko/umana/Out-There_Final/Out-There/index.html">View</a>
+                <a href="https://spring-2021.cs.utexas.edu/cs329e-bulko/umana/Out-There_Final/Out-There/index.html" target="_blank">View</a>
                 </Button>
                 <Button size="small" color="primary">
-                <a href="https://github.com/mumana98/Out-There">GitHub</a>
+                <a href="https://github.com/mumana98/Out-There" target="_blank">GitHub</a>
                 </Button>
             </CardActions>
         </Card>
