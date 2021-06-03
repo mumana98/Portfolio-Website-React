@@ -47,7 +47,7 @@ return (
 		</CardActionArea>
 		<CardActions>
 			<Button size="small" color="primary">
-				<a href="https://gitlab.com/hdoss99/idb">GitLab</a>
+				<a href="https://gitlab.com/mumana98/idb/-/tree/master/idb">GitLab</a>
 			</Button>
 		</CardActions>
 	</Card>

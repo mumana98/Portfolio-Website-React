@@ -47,10 +47,10 @@ const ProjectOne = () => {
             </CardActionArea>
             <CardActions>
                 <Button size="small" color="primary">
-                    <a href="">View</a>
+                    <a href="https://mumana98.github.io/Todo-List/">View</a>
                 </Button>
                 <Button size="small" color="primary">
-                    <a href="">GitHub</a>
+                    <a href="https://github.com/mumana98/Todo-List">GitHub</a>
                 </Button>
             </CardActions>
         </Card>
