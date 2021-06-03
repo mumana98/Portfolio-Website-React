@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../css/Resume_V2.pdf'
+import resume from '../css/Matthew_Umana_Resume.pdf'
 import ResumeMenu from './ResumeTabContent/ResumeContainer'
 
 const SectionThree = () => {
