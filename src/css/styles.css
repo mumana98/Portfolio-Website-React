@@ -403,8 +403,8 @@ h2{
         font-size: 1vw !important;
     }
     #photo img{
-        height: 350px;
-        width: 350px;
+        height: 310px;
+        width: 310px;
     }
 }
 @media screen and (max-width:1136px){
