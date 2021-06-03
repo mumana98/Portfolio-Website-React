@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a0e0390873b140e9ffe8607fdc13112",
+    "revision": "112b75186e38ef2a2862368f1ac9d980",
     "url": "/Portfolio-Website-React/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website-React/static/css/2.9aae25f0.chunk.css"
   },
   {
-    "revision": "9258a7d5024673c8f614",
+    "revision": "c28cf9d684a1a1569eb9",
     "url": "/Portfolio-Website-React/static/css/main.57fc08f1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website-React/static/js/2.14092ef7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9258a7d5024673c8f614",
-    "url": "/Portfolio-Website-React/static/js/main.cd431d47.chunk.js"
+    "revision": "c28cf9d684a1a1569eb9",
+    "url": "/Portfolio-Website-React/static/js/main.18e63815.chunk.js"
   },
   {
     "revision": "32fffa809c5bcb61ce2e",
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website-React/static/media/Houston.f90a95f9.png"
   },
   {
-    "revision": "62fa05fe8772fd7635a790705edf5d00",
-    "url": "/Portfolio-Website-React/static/media/Out_There_IMG.62fa05fe.png"
+    "revision": "f04a7e2b7db089f71c2684fa38ce18b7",
+    "url": "/Portfolio-Website-React/static/media/Matthew_Umana_Resume.f04a7e2b.pdf"
   },
   {
-    "revision": "19b25e3cc2dbd45b7d3bc6c926e67e43",
-    "url": "/Portfolio-Website-React/static/media/Resume_V2.19b25e3c.pdf"
+    "revision": "62fa05fe8772fd7635a790705edf5d00",
+    "url": "/Portfolio-Website-React/static/media/Out_There_IMG.62fa05fe.png"
   },
   {
     "revision": "543761c6f36f5fdd844fb89ee596fc05",
