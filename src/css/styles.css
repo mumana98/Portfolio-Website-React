@@ -322,9 +322,9 @@ h2{
 }
 
 .jss17, .jss19, .jss21, .MuiTabs-indicator { /*class only appears in deployment? */
-    -webkit-background-color: #5DE6FF !important;
+    /* -webkit-background-color: #5DE6FF !important;
     -moz-background-color: #5DE6FF !important;
-    background-color: #5DE6FF !important;
+    background-color: #5DE6FF !important; */
     outline: 1px solid #5DE6FF;
     outline-offset: -1px;
 }
