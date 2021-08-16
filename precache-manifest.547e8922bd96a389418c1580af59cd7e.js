@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8dfe75d7cee2214f4304fcca73a53dce",
+    "revision": "4bd7f11588066d488a5734ad462ea4f8",
     "url": "/Portfolio-Website-React/index.html"
   },
   {
-    "revision": "3b0c6b871f5904c0870f",
+    "revision": "ac23a3d3b0da83de9f09",
     "url": "/Portfolio-Website-React/static/css/2.9aae25f0.chunk.css"
   },
   {
-    "revision": "a54497ae95cf6531b5e8",
-    "url": "/Portfolio-Website-React/static/css/main.4b01d3e8.chunk.css"
+    "revision": "55f6109a778b0e5d544d",
+    "url": "/Portfolio-Website-React/static/css/main.6670cbec.chunk.css"
   },
   {
-    "revision": "3b0c6b871f5904c0870f",
-    "url": "/Portfolio-Website-React/static/js/2.14092ef7.chunk.js"
+    "revision": "ac23a3d3b0da83de9f09",
+    "url": "/Portfolio-Website-React/static/js/2.804a93d9.chunk.js"
   },
   {
     "revision": "82570d2631b48013fa11faea1c951d2c",
-    "url": "/Portfolio-Website-React/static/js/2.14092ef7.chunk.js.LICENSE.txt"
+    "url": "/Portfolio-Website-React/static/js/2.804a93d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a54497ae95cf6531b5e8",
-    "url": "/Portfolio-Website-React/static/js/main.40e41536.chunk.js"
+    "revision": "55f6109a778b0e5d544d",
+    "url": "/Portfolio-Website-React/static/js/main.588ebb87.chunk.js"
   },
   {
     "revision": "32fffa809c5bcb61ce2e",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "543761c6f36f5fdd844fb89ee596fc05",
     "url": "/Portfolio-Website-React/static/media/SanAntonio.543761c6.png"
+  },
+  {
+    "revision": "41f32c9e41029158930dda1ae27a29a0",
+    "url": "/Portfolio-Website-React/static/media/WebsiteImage.41f32c9e.png"
   },
   {
     "revision": "6369b40ce7393531b3d418e5879496e0",
