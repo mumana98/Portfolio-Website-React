@@ -299,7 +299,7 @@ h2{
     box-shadow: 8px 0 15px -4px #000, -8px 0 15px -4px #000;
 }
 
-.PrivateTabIndicator-root-13 {
+.PrivateTabIndicator-root-13, .PrivateTabIndicator-root-19 {
     -webkit-background-color: #5DE6FF !important;
     -moz-background-color: #5DE6FF !important;
     background-color: #5DE6FF !important;
